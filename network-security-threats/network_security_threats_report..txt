@@ -1,0 +1,88 @@
+
+
+# Common Network Security Threats: What You Need to Know
+
+## Introduction
+
+In today’s digital world, keeping networks safe is more important than ever. There are lots of ways attackers try to mess with our systems, but some threats are more common — and dangerous — than others. This report takes a look at three big ones: Denial of Service (DoS) attacks, Man-in-the-Middle (MITM) attacks, and Spoofing. We’ll explore what they are, how they work, why they’re a problem, and how we can protect ourselves.
+
+
+## 1. Denial of Service (DoS) Attacks
+
+### What’s going on here?
+
+A DoS attack basically tries to shut down a service by flooding it with so much traffic that it can’t handle it. Imagine a crowd blocking the entrance of a store so no real customers can get in — that’s what DoS does to websites or servers.
+
+### Why does it matter?
+
+When a website or service goes down, it can mean lost business, frustrated users, and a big hit to the company’s reputation. Sometimes, it can even cause serious financial damage.
+
+### Real example:
+
+Back in 2016, the Mirai botnet took down a major DNS provider called Dyn. This caused big sites like Twitter, Netflix, and Reddit to go offline for hours. It was a wake-up call for everyone about how disruptive DoS attacks can be.
+
+### How can we stop it?
+
+* Use firewalls and systems that detect and block weird traffic.
+* Limit how many requests come from a single source.
+* Use professional DDoS protection services like Cloudflare.
+
+---
+
+## 2. Man-in-the-Middle (MITM) Attacks
+
+### What’s happening?
+
+In a MITM attack, someone sneaks in between two people who think they’re talking directly. The attacker listens in, and sometimes even changes the conversation — all without anyone knowing.
+
+### Why’s it a problem?
+
+This means sensitive info like passwords, credit card numbers, or private messages can get stolen or tampered with. It breaks trust and can cause big security headaches.
+
+### Real example:
+
+Attackers have used public Wi-Fi hotspots in places like coffee shops to secretly grab info from people using the network. Since the Wi-Fi isn’t secure, it’s easy to intercept data.
+
+### How do we protect ourselves?
+
+* Always use encrypted connections (look for HTTPS).
+* Avoid using public Wi-Fi for important things, or use a VPN.
+* Use strong login methods like two-factor authentication.
+
+
+## 3. Spoofing
+
+### What is spoofing?
+
+Spoofing is when an attacker pretends to be someone or something else on the network by faking their identity — like changing their IP address or pretending to be a trusted device.
+
+### Why’s it dangerous?
+
+It can let attackers get into systems they shouldn’t, redirect traffic to harmful places, or cause network confusion. It’s a sneaky way to trick both people and machines.
+
+### Real example:
+
+In the early 2000s, attackers used IP spoofing to hide where DDoS attacks were coming from, making it harder to stop them.
+
+### How to fight back?
+
+* Set up rules to check if incoming data is really from who it says it’s from.
+* Use security tools like IPsec to secure network traffic.
+* Keep an eye on network activity to spot anything unusual.
+
+
+
+## Conclusion
+
+Attacks like DoS, MITM, and Spoofing are serious threats but understanding how they work and how to defend against them puts us ahead of the game. By using the right tools, staying vigilant, and educating ourselves, we can keep networks safer and stronger.
+
+
+## References
+
+* [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+* [NIST Guide to Network Security](https://csrc.nist.gov/publications/detail/sp/800-115/final)
+* [Cloudflare DDoS Protection](https://www.cloudflare.com/ddos/)
+* [Cisco Security Solutions](https://www.cisco.com/c/en/us/products/security/index.html)
+
+
+

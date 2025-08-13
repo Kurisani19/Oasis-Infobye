@@ -1,0 +1,85 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-28 13:19 +0200
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.00s elapsed
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.00s elapsed
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 13:19
+Completed Parallel DNS resolution of 1 host. at 13:19, 0.38s elapsed
+Initiating SYN Stealth Scan at 13:19
+Scanning LAPTOP-IOS3HUQK (192.168.8.118) [1000 ports]
+Discovered open port 445/tcp on 192.168.8.118
+Discovered open port 135/tcp on 192.168.8.118
+Discovered open port 139/tcp on 192.168.8.118
+Completed SYN Stealth Scan at 13:19, 0.17s elapsed (1000 total ports)
+Initiating Service scan at 13:19
+Scanning 3 services on LAPTOP-IOS3HUQK (192.168.8.118)
+Completed Service scan at 13:19, 6.23s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against LAPTOP-IOS3HUQK (192.168.8.118)
+Retrying OS detection (try #2) against LAPTOP-IOS3HUQK (192.168.8.118)
+Retrying OS detection (try #3) against LAPTOP-IOS3HUQK (192.168.8.118)
+Retrying OS detection (try #4) against LAPTOP-IOS3HUQK (192.168.8.118)
+Retrying OS detection (try #5) against LAPTOP-IOS3HUQK (192.168.8.118)
+NSE: Script scanning 192.168.8.118.
+Initiating NSE at 13:19
+Completed NSE at 13:19, 14.13s elapsed
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.04s elapsed
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.00s elapsed
+Nmap scan report for LAPTOP-IOS3HUQK (192.168.8.118)
+Host is up (0.00040s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=7/28%OT=135%CT=1%CU=31724%PV=Y%DS=0%DC=L%G=Y%TM=68875C
+OS:D9%P=i686-pc-windows-windows)SEQ(SP=102%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=
+OS:S%TS=A)SEQ(SP=104%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD=
+OS:1%ISR=109%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FD%GCD=1%ISR=FF%TI=I%CI=I%II=I
+OS:%SS=S%TS=A)OPS(O1=MFFD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7
+OS:NW8ST11%O5=MFFD7NW8ST11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF
+OS:%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%D
+OS:F=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0
+OS:%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=
+OS:A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%R
+OS:UD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 3.028 days (since Fri Jul 25 12:39:24 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| nbstat: NetBIOS name: LAPTOP-IOS3HUQK, NetBIOS user: <unknown>, NetBIOS MAC: cc:47:40:e3:45:f7 (AzureWave Technology)
+| Names:
+|   LAPTOP-IOS3HUQK<00>  Flags: <unique><active>
+|   LAPTOP-IOS3HUQK<20>  Flags: <unique><active>
+|_  WORKGROUP<00>        Flags: <group><active>
+| smb2-time: 
+|   date: 2025-07-28T11:19:39
+|_  start_date: N/A
+
+NSE: Script Post-scanning.
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.00s elapsed
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.00s elapsed
+Initiating NSE at 13:19
+Completed NSE at 13:19, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.90 seconds
+           Raw packets sent: 1080 (51.090KB) | Rcvd: 2203 (99.542KB)

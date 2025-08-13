@@ -1,0 +1,6 @@
+Nmap scan report for LAPTOP-IOS3HUQK.mshome.net (172.18.48.1)
+Host is up (0.00057s latency).
+All 1000 scanned ports on LAPTOP-IOS3HUQK.mshome.net (172.18.48.1) are filtered
+MAC Address: 00:15:5D:9C:52:F1 (Microsoft)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
