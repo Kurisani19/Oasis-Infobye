@@ -55,6 +55,7 @@ Files Submitted
 nmap_tscan_results.txt – Full scan output
 nmap_output.png – Screenshot of scan
 README.md – This report
+Demo video: https://www.linkedin.com/posts/kurisani-mbhungele-65934830b_oasisinfobyte-cybersecurity-internshipjourney-activity-7355978973383696385-ax3r?utm_source=share&utm_medium=member_android&rcm=ACoAAE7lEaUBVH1Qzo7uLe-MHopaYAmn6yuArMc
 
 Conclusion
 This was my first hands-on experience using Nmap for network scanning. It helped me understand the importance of checking open ports and learning what services are running on a machine. I now see how important it is to protect certain services and properly configure systems to reduce risks.
