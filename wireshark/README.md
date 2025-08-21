@@ -20,4 +20,4 @@ Steps Performed
    sudo apt install wireshark
    sudo wireshark (launched wireshark)
 
-Demo video: https://www.linkedin.com/posts/kurisani-mbhungele-65934830b_cybersecurity-internship-vulnerabilityassessment-activity-7364252171862745091-mQ_j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE7lEaUBVH1Qzo7uLe-MHopaYAmn6yuArMc
+Demo video: https://www.linkedin.com/posts/kurisani-mbhungele-65934830b_cybersecurity-wireshark-networksecurity-activity-7364256576565571585-CR48?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE7lEaUBVH1Qzo7uLe-MHopaYAmn6yuArMc
