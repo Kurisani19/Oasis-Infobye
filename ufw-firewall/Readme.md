@@ -31,7 +31,8 @@ _You can find the firewall status screenshot in this repo:_
 - `ufw_status_screenshot.png` : Screenshot showing the firewall is active
 
  Demo Video
-You can find the firewall status video in this repo:
+You can find the firewall status video in this repo:https://www.linkedin.com/posts/kurisani-mbhungele-65934830b_cybersecurity-internship-linux-activity-7356731115174354945-_u-e?utm_source=share&utm_medium=member_android&rcm=ACoAAE7lEaUBVH1Qzo7uLe-MHopaYAmn6yuArMc
+
 
  Note
 UFW does not always behave perfectly on WSL2 since it is not a full Linux kernel setup but in this case, the configuration and rules worked fine. On a real server or VM, UFW is more reliable for production use.
